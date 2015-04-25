@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011F66251AEC4DD200EEDEFD /* UPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F66241AEC4DD200EEDEFD /* UPManager.swift */; };
 		2A56D9781AE2F5D600E2D648 /* TestCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56D9771AE2F5D600E2D648 /* TestCellTableViewCell.swift */; };
 		5BA9E0B51AD1A43B0067831F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0B41AD1A43B0067831F /* AppDelegate.swift */; };
 		5BA9E0B71AD1A43B0067831F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0B61AD1A43B0067831F /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011F66241AEC4DD200EEDEFD /* UPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPManager.swift; sourceTree = "<group>"; };
 		2A56D9771AE2F5D600E2D648 /* TestCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCellTableViewCell.swift; sourceTree = "<group>"; };
 		5BA9E0AF1AD1A43B0067831F /* UPEmbeddedTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPEmbeddedTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA9E0B31AD1A43B0067831F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */,
 				5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */,
+				011F66241AEC4DD200EEDEFD /* UPManager.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011F66251AEC4DD200EEDEFD /* UPManager.swift in Sources */,
 				5BA9E0D51AD1A65F0067831F /* UITableView+UP.swift in Sources */,
 				5BA9E0B71AD1A43B0067831F /* ViewController.swift in Sources */,
 				5BA9E0D71AD1A93A0067831F /* UPEmbeddedTextView.swift in Sources */,
