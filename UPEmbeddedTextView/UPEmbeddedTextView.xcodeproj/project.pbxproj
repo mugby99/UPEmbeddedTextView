@@ -15,7 +15,6 @@
 		5BA9E0BC1AD1A43B0067831F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA9E0BB1AD1A43B0067831F /* Images.xcassets */; };
 		5BA9E0BF1AD1A43B0067831F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA9E0BD1AD1A43B0067831F /* LaunchScreen.xib */; };
 		5BA9E0CB1AD1A43B0067831F /* UPEmbeddedTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0CA1AD1A43B0067831F /* UPEmbeddedTextViewTests.swift */; };
-		5BA9E0D51AD1A65F0067831F /* UITableView+UP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */; };
 		5BA9E0D71AD1A93A0067831F /* UPEmbeddedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		5BA9E0C41AD1A43B0067831F /* UPEmbeddedTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPEmbeddedTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA9E0C91AD1A43B0067831F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA9E0CA1AD1A43B0067831F /* UPEmbeddedTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPEmbeddedTextViewTests.swift; sourceTree = "<group>"; };
-		5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+UP.swift"; sourceTree = "<group>"; };
 		5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPEmbeddedTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 		2A56D9791AE30D2000E2D648 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */,
 				5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */,
 				011F66241AEC4DD200EEDEFD /* UPManager.swift */,
 			);
@@ -241,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				011F66251AEC4DD200EEDEFD /* UPManager.swift in Sources */,
-				5BA9E0D51AD1A65F0067831F /* UITableView+UP.swift in Sources */,
 				5BA9E0B71AD1A43B0067831F /* ViewController.swift in Sources */,
 				5BA9E0D71AD1A93A0067831F /* UPEmbeddedTextView.swift in Sources */,
 				2A56D9781AE2F5D600E2D648 /* TestCellTableViewCell.swift in Sources */,

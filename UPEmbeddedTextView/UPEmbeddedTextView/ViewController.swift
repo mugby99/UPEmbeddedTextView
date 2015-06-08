@@ -31,11 +31,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITextViewDelegat
     
     var testText3: NSString = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."
     var testTexts: NSMutableArray!
+    var tableViewManager: UPManager!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.previousTextViewRect = CGSizeZero
         self.testTexts = [testText, testText2, testText3]
+        self.tableViewManager = UPManager(delegate:self, tableView: self.tableView)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -92,7 +94,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITextViewDelegat
 
         if indexPath.section == 0 && (indexPath.row == 0 || indexPath.row == 1 || indexPath.row == 2) {
             
-            return self.tableView.heightForRowAtIndexPath(indexPath, reuseIdentifier: "testCell", textForTextView:{ (textView, indexPath) -> String in
+            return self.tableViewManager.heightForRowAtIndexPath(indexPath, reuseIdentifier: "testCell", textForTextView:{ (textView, indexPath) -> String in
                 
                 if let testText = self.testTexts[indexPath.row] as? String{
                     return testText
@@ -107,7 +109,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITextViewDelegat
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
         if let cell = tableView.dequeueReusableCellWithIdentifier("testCell", forIndexPath: indexPath) as? TestCellTableViewCell{
-            cell.textView.delegate = self
+            cell.textView.delegate = self.tableViewManager
             
             if let testText = self.testTexts[indexPath.row] as? String{
                 cell.textView.text = testText
@@ -120,61 +122,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITextViewDelegat
         return cell
     }
     
-    // MARK: - UITableViewDataSource helpers
-    // TODO: Need to find a way to expose all these methods! i.e avoid the
-    // client setting them if possible
-    
-    // This one might be client-configured
-    func configureCell(sizingCell:TestCellTableViewCell, atIndexPath indexPath:NSIndexPath)
-    {
-        if let testText = self.testTexts[indexPath.row] as? String{
-            sizingCell.textView.text = testText
-        }
-    }
-    
     // MARK: - UITextViewDelegate
     
     func textViewDidChange(textView: UITextView) {
-        // TODO: Obviously we cannot expect to have a property textView. This must be scalable and
-        // abstract!
         if let cell = self.tableView.cellForRowAtIndexPath(NSIndexPath(forRow: textView.tag, inSection: 0)) as? TestCellTableViewCell{
             if cell.textView == textView{
                 self.testTexts[textView.tag] = cell.textView.text
-                let currentSize: CGSize = textView.sizeThatFits(CGSizeMake(textView.frame.width, CGFloat.max));
-                // Check if the height really requires changing and a tableView update is needed
-                if (!CGSizeEqualToSize(currentSize, self.previousTextViewRect) ) {
-                    self.previousTextViewRect = currentSize;
-                    if !CGSizeEqualToSize(self.previousTextViewRect, CGSizeZero)
-                    {
-                        self.tableView.beginUpdates()
-                        self.tableView.endUpdates()
-                    }
-                }
             }
         }
     }
-    
-    func textViewDidChangeSelection(textView: UITextView) {
-        self.tableView.updateTextViewZoomArea(textView)
-    }
-    
-    func textViewShouldBeginEditing(textView: UITextView) -> Bool {
-        // TODO: A nice to have: The user might choose to expand textView here
-        self.tableView.beginUpdates()
-        self.tableView.endUpdates()
-        return true
-    }
-    
-    func textViewDidBeginEditing(textView: UITextView) {
-        TextViewSelection.start = CGRectZero
-        TextViewSelection.end = CGRectZero
-    }
-    
-    func textViewDidEndEditing(textView: UITextView) {
-        // TODO: A nice to have: The user might choose to collapse textView here
-        self.tableView.beginUpdates()
-        self.tableView.endUpdates()
-    }
-
 }
 
