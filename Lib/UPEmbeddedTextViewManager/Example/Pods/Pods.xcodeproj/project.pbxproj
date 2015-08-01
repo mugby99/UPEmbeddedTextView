@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076DB0F060C9C5EC891A425D91060CA6 /* Pods-UPEmbeddedTextViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC87FF4A7774B91467ABB569DC22D9D /* Pods-UPEmbeddedTextViewManager_Example-dummy.m */; };
+		1C377B1B3B0A1ED557772646ED183728 /* UPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60F95C68AE925B32B919AF082EC577A /* UPManager.swift */; };
+		3862E9D509F5DFFFE0B969E04FDB3ABF /* UPManagedTextViewMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64277240FB4A47E7571C75D40E50EB /* UPManagedTextViewMetaData.swift */; };
+		7A88504469B33B7BE045A82192551D9C /* UPEmbeddedTextViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB1505C6C1A3F96D954739833477798 /* UPEmbeddedTextViewManager-dummy.m */; };
+		A12D45949C4EB0FE948BD3CA3B300249 /* UPEmbeddedTextViewManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A6E93E1F9A1CB54D551550AED7920F5 /* UPEmbeddedTextViewManager.bundle */; };
+		A6CC4F3F8BF6185949BBD4D7FE637BA9 /* Pods-UPEmbeddedTextViewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 451211B0ADA2835546678FE2019707C2 /* Pods-UPEmbeddedTextViewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E881F1EDDCDBACFF56699A79EC5572 /* Pods-UPEmbeddedTextViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CC4366035739834A4CBD1AC0D6ADD1 /* Pods-UPEmbeddedTextViewManager_Tests-dummy.m */; };
+		BE313E5333F504FC2BE875EA03C590D4 /* UPEmbeddedTextViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB49B5496F429D4857C5D07527AD95C /* UPEmbeddedTextViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05D8DBE21F7992227BCC4CBB11B19E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D219623CD2A5FC7834F2A01FFF9878E /* Foundation.framework */; };
+		D33E10E4DCF60979AA320B6F80F3677E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D219623CD2A5FC7834F2A01FFF9878E /* Foundation.framework */; };
+		F6BC4FCBF1A98B33D4648B3672303F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D219623CD2A5FC7834F2A01FFF9878E /* Foundation.framework */; };
+		FA66BAECD6241E064EA4156B587C5DE0 /* Pods-UPEmbeddedTextViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E2D285D10C2BB2B061B3D0ACF4F6C8 /* Pods-UPEmbeddedTextViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C445F2E8C60126ACA4FD8C7B9D27D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CEB2F48EA28B1EDB0D695BEDF214FB;
+			remoteInfo = UPEmbeddedTextViewManager;
+		};
+		73F3E11FCE92664DF3CEFDB4E2C8D1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CEB2F48EA28B1EDB0D695BEDF214FB;
+			remoteInfo = UPEmbeddedTextViewManager;
+		};
+		C0C99848C84F9DCE18CEA8C05FBBACD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB096D01E1C60159B88197AE3B15A98;
+			remoteInfo = "UPEmbeddedTextViewManager-UPEmbeddedTextViewManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E9790203DDF97BC1CEA21FDF80FC17 /* UPEmbeddedTextViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UPEmbeddedTextViewManager.modulemap; sourceTree = "<group>"; };
+		0F9780C969A1BC0655522BEEB79447FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12272DBCE68207D503C0023F97841697 /* Pods-UPEmbeddedTextViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPEmbeddedTextViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EB1505C6C1A3F96D954739833477798 /* UPEmbeddedTextViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPEmbeddedTextViewManager-dummy.m"; sourceTree = "<group>"; };
+		3A6E93E1F9A1CB54D551550AED7920F5 /* UPEmbeddedTextViewManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPEmbeddedTextViewManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CC4366035739834A4CBD1AC0D6ADD1 /* Pods-UPEmbeddedTextViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPEmbeddedTextViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		451211B0ADA2835546678FE2019707C2 /* Pods-UPEmbeddedTextViewManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPEmbeddedTextViewManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		475770200F081BD071A44D574D32BB6C /* Pods-UPEmbeddedTextViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPEmbeddedTextViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A64277240FB4A47E7571C75D40E50EB /* UPManagedTextViewMetaData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UPManagedTextViewMetaData.swift; sourceTree = "<group>"; };
+		4DC3C44D2EC4908CF337F095CEBA5B14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503524F7328F8CAEB4370B05E7D137AC /* Pods-UPEmbeddedTextViewManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPEmbeddedTextViewManager_Example-resources.sh"; sourceTree = "<group>"; };
+		5DF77D3778A783A7D23075237C65A194 /* Pods-UPEmbeddedTextViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPEmbeddedTextViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6681AC6A3674CEE12954AA3E31C44184 /* Pods-UPEmbeddedTextViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPEmbeddedTextViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BFD99C8FB2F70B0A0C0E74DE17D1DD7 /* Pods-UPEmbeddedTextViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPEmbeddedTextViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D219623CD2A5FC7834F2A01FFF9878E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		881CC2F8F558BB3178C4201F0B5014CA /* Pods-UPEmbeddedTextViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPEmbeddedTextViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88E2D285D10C2BB2B061B3D0ACF4F6C8 /* Pods-UPEmbeddedTextViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPEmbeddedTextViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		8D41E868CF8F953DAE5BE25F2B42EB92 /* UPEmbeddedTextViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UPEmbeddedTextViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB49B5496F429D4857C5D07527AD95C /* UPEmbeddedTextViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPEmbeddedTextViewManager-umbrella.h"; sourceTree = "<group>"; };
+		90C8D931E40532E0EA7AEDB21D465B7E /* Pods-UPEmbeddedTextViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPEmbeddedTextViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		97C056A72B87F78CCA686FC73EA9BC62 /* Pods-UPEmbeddedTextViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPEmbeddedTextViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A3BBD634708D1DDBB9AF78F6AE15E603 /* Pods-UPEmbeddedTextViewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPEmbeddedTextViewManager_Tests.modulemap"; sourceTree = "<group>"; };
+		AF905F7B3FC787C7B731768A4DD25067 /* Pods-UPEmbeddedTextViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPEmbeddedTextViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8BB3499EF82C8BD79E176849DB7F71D /* Pods_UPEmbeddedTextViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPEmbeddedTextViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25D48DF8BD1514C8E9E167366796FF4 /* UPEmbeddedTextViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPEmbeddedTextViewManager.xcconfig; sourceTree = "<group>"; };
+		D60F95C68AE925B32B919AF082EC577A /* UPManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UPManager.swift; sourceTree = "<group>"; };
+		DD79E315C46AD83910068815EAEED266 /* Pods-UPEmbeddedTextViewManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPEmbeddedTextViewManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		DDF75CC51A02E6C5D5C994F281A5768B /* Pods-UPEmbeddedTextViewManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPEmbeddedTextViewManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EAC87FF4A7774B91467ABB569DC22D9D /* Pods-UPEmbeddedTextViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPEmbeddedTextViewManager_Example-dummy.m"; sourceTree = "<group>"; };
+		EEEAB7AA0E1F264E683077C74F76D68D /* Pods_UPEmbeddedTextViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPEmbeddedTextViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F190E58B1AB0B5B9A2DDF8E8624A412E /* Pods-UPEmbeddedTextViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPEmbeddedTextViewManager_Example.modulemap"; sourceTree = "<group>"; };
+		F4593A99CA56785CBFE6EEAD56C776F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F460807C6BD9C7BFCC1E07D522442900 /* UPEmbeddedTextViewManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UPEmbeddedTextViewManager-Private.xcconfig"; sourceTree = "<group>"; };
+		FA9906D230A266A2F14A4B7914C37A2E /* UPEmbeddedTextViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPEmbeddedTextViewManager-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D0CE7B21A133177C79CF302CCAECE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33E10E4DCF60979AA320B6F80F3677E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A6A67F71CB2836D4BD2E607CCECBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BC4FCBF1A98B33D4648B3672303F07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8597A48CF9405DAE53DF9688F3F2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7A2A7AD0AD33339C84D3CE50D939FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D8DBE21F7992227BCC4CBB11B19E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156A032341CC747077CC73D5C477A9CF /* Pods-UPEmbeddedTextViewManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F4593A99CA56785CBFE6EEAD56C776F7 /* Info.plist */,
+				F190E58B1AB0B5B9A2DDF8E8624A412E /* Pods-UPEmbeddedTextViewManager_Example.modulemap */,
+				6681AC6A3674CEE12954AA3E31C44184 /* Pods-UPEmbeddedTextViewManager_Example-acknowledgements.markdown */,
+				5DF77D3778A783A7D23075237C65A194 /* Pods-UPEmbeddedTextViewManager_Example-acknowledgements.plist */,
+				EAC87FF4A7774B91467ABB569DC22D9D /* Pods-UPEmbeddedTextViewManager_Example-dummy.m */,
+				97C056A72B87F78CCA686FC73EA9BC62 /* Pods-UPEmbeddedTextViewManager_Example-frameworks.sh */,
+				503524F7328F8CAEB4370B05E7D137AC /* Pods-UPEmbeddedTextViewManager_Example-resources.sh */,
+				88E2D285D10C2BB2B061B3D0ACF4F6C8 /* Pods-UPEmbeddedTextViewManager_Example-umbrella.h */,
+				881CC2F8F558BB3178C4201F0B5014CA /* Pods-UPEmbeddedTextViewManager_Example.debug.xcconfig */,
+				AF905F7B3FC787C7B731768A4DD25067 /* Pods-UPEmbeddedTextViewManager_Example.release.xcconfig */,
+			);
+			name = "Pods-UPEmbeddedTextViewManager_Example";
+			path = "Target Support Files/Pods-UPEmbeddedTextViewManager_Example";
+			sourceTree = "<group>";
+		};
+		527A221A06D199E73707CB466695383A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4927FEFA78B97478AD56D309C9B0CF0 /* UPEmbeddedTextViewManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D219623CD2A5FC7834F2A01FFF9878E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A48D76B5607173ACFB7E85FD5FC64B0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A64277240FB4A47E7571C75D40E50EB /* UPManagedTextViewMetaData.swift */,
+				D60F95C68AE925B32B919AF082EC577A /* UPManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				527A221A06D199E73707CB466695383A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F3E93C8C93E36CADEADEA57C75F2F97F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A41076682998E420518BADCDD54766B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F9780C969A1BC0655522BEEB79447FA /* Info.plist */,
+				09E9790203DDF97BC1CEA21FDF80FC17 /* UPEmbeddedTextViewManager.modulemap */,
+				D25D48DF8BD1514C8E9E167366796FF4 /* UPEmbeddedTextViewManager.xcconfig */,
+				F460807C6BD9C7BFCC1E07D522442900 /* UPEmbeddedTextViewManager-Private.xcconfig */,
+				1EB1505C6C1A3F96D954739833477798 /* UPEmbeddedTextViewManager-dummy.m */,
+				FA9906D230A266A2F14A4B7914C37A2E /* UPEmbeddedTextViewManager-prefix.pch */,
+				8EB49B5496F429D4857C5D07527AD95C /* UPEmbeddedTextViewManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UPEmbeddedTextViewManager";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAB7AA0E1F264E683077C74F76D68D /* Pods_UPEmbeddedTextViewManager_Example.framework */,
+				C8BB3499EF82C8BD79E176849DB7F71D /* Pods_UPEmbeddedTextViewManager_Tests.framework */,
+				3A6E93E1F9A1CB54D551550AED7920F5 /* UPEmbeddedTextViewManager.bundle */,
+				8D41E868CF8F953DAE5BE25F2B42EB92 /* UPEmbeddedTextViewManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFF6161BE4048C9C074F49D6E8FB2C3 /* Pods-UPEmbeddedTextViewManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3C44D2EC4908CF337F095CEBA5B14 /* Info.plist */,
+				A3BBD634708D1DDBB9AF78F6AE15E603 /* Pods-UPEmbeddedTextViewManager_Tests.modulemap */,
+				475770200F081BD071A44D574D32BB6C /* Pods-UPEmbeddedTextViewManager_Tests-acknowledgements.markdown */,
+				12272DBCE68207D503C0023F97841697 /* Pods-UPEmbeddedTextViewManager_Tests-acknowledgements.plist */,
+				40CC4366035739834A4CBD1AC0D6ADD1 /* Pods-UPEmbeddedTextViewManager_Tests-dummy.m */,
+				DDF75CC51A02E6C5D5C994F281A5768B /* Pods-UPEmbeddedTextViewManager_Tests-frameworks.sh */,
+				DD79E315C46AD83910068815EAEED266 /* Pods-UPEmbeddedTextViewManager_Tests-resources.sh */,
+				451211B0ADA2835546678FE2019707C2 /* Pods-UPEmbeddedTextViewManager_Tests-umbrella.h */,
+				90C8D931E40532E0EA7AEDB21D465B7E /* Pods-UPEmbeddedTextViewManager_Tests.debug.xcconfig */,
+				6BFD99C8FB2F70B0A0C0E74DE17D1DD7 /* Pods-UPEmbeddedTextViewManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-UPEmbeddedTextViewManager_Tests";
+			path = "Target Support Files/Pods-UPEmbeddedTextViewManager_Tests";
+			sourceTree = "<group>";
+		};
+		E37619D1BAEC82AAA537B40DC8E465BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A48D76B5607173ACFB7E85FD5FC64B0 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F3E93C8C93E36CADEADEA57C75F2F97F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				156A032341CC747077CC73D5C477A9CF /* Pods-UPEmbeddedTextViewManager_Example */,
+				CEFF6161BE4048C9C074F49D6E8FB2C3 /* Pods-UPEmbeddedTextViewManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4927FEFA78B97478AD56D309C9B0CF0 /* UPEmbeddedTextViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				E37619D1BAEC82AAA537B40DC8E465BC /* Pod */,
+				A41076682998E420518BADCDD54766B8 /* Support Files */,
+			);
+			name = UPEmbeddedTextViewManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61F6F1E408494E549346D5FD5D23FA85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CC4F3F8BF6185949BBD4D7FE637BA9 /* Pods-UPEmbeddedTextViewManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6399C07A27741347F94BB3ADD155695E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA66BAECD6241E064EA4156B587C5DE0 /* Pods-UPEmbeddedTextViewManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4AFFF343EAC366EFBD736DF2C58101 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE313E5333F504FC2BE875EA03C590D4 /* UPEmbeddedTextViewManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5877F34E2734636117471BDC144E94D0 /* Pods-UPEmbeddedTextViewManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909E7073DDFD52DEBC6266ACD5AB6F5C /* Build configuration list for PBXNativeTarget "Pods-UPEmbeddedTextViewManager_Tests" */;
+			buildPhases = (
+				9401153F7C21EEFC019CB37E70180907 /* Sources */,
+				DE7A2A7AD0AD33339C84D3CE50D939FE /* Frameworks */,
+				61F6F1E408494E549346D5FD5D23FA85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E523653B247450783F787FA7E1E03A /* PBXTargetDependency */,
+			);
+			name = "Pods-UPEmbeddedTextViewManager_Tests";
+			productName = "Pods-UPEmbeddedTextViewManager_Tests";
+			productReference = C8BB3499EF82C8BD79E176849DB7F71D /* Pods_UPEmbeddedTextViewManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70BA65C243BE9317CCDE6DE2211293E2 /* Pods-UPEmbeddedTextViewManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F543AED759A2BD629BDD2901C6AD2FB /* Build configuration list for PBXNativeTarget "Pods-UPEmbeddedTextViewManager_Example" */;
+			buildPhases = (
+				03EA5EFD0620CD9D3E62D9A52E47E13B /* Sources */,
+				B0A6A67F71CB2836D4BD2E607CCECBBC /* Frameworks */,
+				6399C07A27741347F94BB3ADD155695E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE76C3A5E545CF25F580EF89C36E0BF /* PBXTargetDependency */,
+			);
+			name = "Pods-UPEmbeddedTextViewManager_Example";
+			productName = "Pods-UPEmbeddedTextViewManager_Example";
+			productReference = EEEAB7AA0E1F264E683077C74F76D68D /* Pods_UPEmbeddedTextViewManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81CEB2F48EA28B1EDB0D695BEDF214FB /* UPEmbeddedTextViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463DD6FF15DB400D96C9C90F6B7001E0 /* Build configuration list for PBXNativeTarget "UPEmbeddedTextViewManager" */;
+			buildPhases = (
+				B246B2A07488AF3E6826674F045FCA90 /* Sources */,
+				5D0CE7B21A133177C79CF302CCAECE2A /* Frameworks */,
+				3668ED9E3C76789C1AA9D3A036914A9A /* Resources */,
+				AB4AFFF343EAC366EFBD736DF2C58101 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA7B8CEDC23D309AD99AF0499815296 /* PBXTargetDependency */,
+			);
+			name = UPEmbeddedTextViewManager;
+			productName = UPEmbeddedTextViewManager;
+			productReference = 8D41E868CF8F953DAE5BE25F2B42EB92 /* UPEmbeddedTextViewManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACB096D01E1C60159B88197AE3B15A98 /* UPEmbeddedTextViewManager-UPEmbeddedTextViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD4084A2802ACC16BEF31D0EC526D23 /* Build configuration list for PBXNativeTarget "UPEmbeddedTextViewManager-UPEmbeddedTextViewManager" */;
+			buildPhases = (
+				D8BFC8A55ADDF98C23F7CC0042161DF3 /* Sources */,
+				BC8597A48CF9405DAE53DF9688F3F2A8 /* Frameworks */,
+				42BE460CBB44464F8FEF1DED978A4D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPEmbeddedTextViewManager-UPEmbeddedTextViewManager";
+			productName = "UPEmbeddedTextViewManager-UPEmbeddedTextViewManager";
+			productReference = 3A6E93E1F9A1CB54D551550AED7920F5 /* UPEmbeddedTextViewManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70BA65C243BE9317CCDE6DE2211293E2 /* Pods-UPEmbeddedTextViewManager_Example */,
+				5877F34E2734636117471BDC144E94D0 /* Pods-UPEmbeddedTextViewManager_Tests */,
+				81CEB2F48EA28B1EDB0D695BEDF214FB /* UPEmbeddedTextViewManager */,
+				ACB096D01E1C60159B88197AE3B15A98 /* UPEmbeddedTextViewManager-UPEmbeddedTextViewManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3668ED9E3C76789C1AA9D3A036914A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12D45949C4EB0FE948BD3CA3B300249 /* UPEmbeddedTextViewManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BE460CBB44464F8FEF1DED978A4D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EA5EFD0620CD9D3E62D9A52E47E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076DB0F060C9C5EC891A425D91060CA6 /* Pods-UPEmbeddedTextViewManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9401153F7C21EEFC019CB37E70180907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E881F1EDDCDBACFF56699A79EC5572 /* Pods-UPEmbeddedTextViewManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B246B2A07488AF3E6826674F045FCA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A88504469B33B7BE045A82192551D9C /* UPEmbeddedTextViewManager-dummy.m in Sources */,
+				3862E9D509F5DFFFE0B969E04FDB3ABF /* UPManagedTextViewMetaData.swift in Sources */,
+				1C377B1B3B0A1ED557772646ED183728 /* UPManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BFC8A55ADDF98C23F7CC0042161DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23E523653B247450783F787FA7E1E03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPEmbeddedTextViewManager;
+			target = 81CEB2F48EA28B1EDB0D695BEDF214FB /* UPEmbeddedTextViewManager */;
+			targetProxy = 6C445F2E8C60126ACA4FD8C7B9D27D8F /* PBXContainerItemProxy */;
+		};
+		5CE76C3A5E545CF25F580EF89C36E0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPEmbeddedTextViewManager;
+			target = 81CEB2F48EA28B1EDB0D695BEDF214FB /* UPEmbeddedTextViewManager */;
+			targetProxy = 73F3E11FCE92664DF3CEFDB4E2C8D1E3 /* PBXContainerItemProxy */;
+		};
+		8DA7B8CEDC23D309AD99AF0499815296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UPEmbeddedTextViewManager-UPEmbeddedTextViewManager";
+			target = ACB096D01E1C60159B88197AE3B15A98 /* UPEmbeddedTextViewManager-UPEmbeddedTextViewManager */;
+			targetProxy = C0C99848C84F9DCE18CEA8C05FBBACD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1438EB069C6BFCFE4E7F457B74BF27FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F460807C6BD9C7BFCC1E07D522442900 /* UPEmbeddedTextViewManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UPEmbeddedTextViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		435A43F19CD72F2DFB01AD992C770C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF905F7B3FC787C7B731768A4DD25067 /* Pods-UPEmbeddedTextViewManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Example/Pods-UPEmbeddedTextViewManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPEmbeddedTextViewManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49D204465086A8B53F946163687E0CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFD99C8FB2F70B0A0C0E74DE17D1DD7 /* Pods-UPEmbeddedTextViewManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Tests/Pods-UPEmbeddedTextViewManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPEmbeddedTextViewManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6492E5646D34260160C2F2C7E2B21CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881CC2F8F558BB3178C4201F0B5014CA /* Pods-UPEmbeddedTextViewManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Example/Pods-UPEmbeddedTextViewManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPEmbeddedTextViewManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69F3047C3327D531404EF418E185DC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F460807C6BD9C7BFCC1E07D522442900 /* UPEmbeddedTextViewManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UPEmbeddedTextViewManager/UPEmbeddedTextViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPEmbeddedTextViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UPEmbeddedTextViewManager/UPEmbeddedTextViewManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UPEmbeddedTextViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A62A5524F8C27685697FD018750DEFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F460807C6BD9C7BFCC1E07D522442900 /* UPEmbeddedTextViewManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UPEmbeddedTextViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A75EF328DC53B60E3A799FDE1B54BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C8D931E40532E0EA7AEDB21D465B7E /* Pods-UPEmbeddedTextViewManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UPEmbeddedTextViewManager_Tests/Pods-UPEmbeddedTextViewManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPEmbeddedTextViewManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F26659105D02A5BE5DE955B3AFC2E701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F460807C6BD9C7BFCC1E07D522442900 /* UPEmbeddedTextViewManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UPEmbeddedTextViewManager/UPEmbeddedTextViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPEmbeddedTextViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UPEmbeddedTextViewManager/UPEmbeddedTextViewManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UPEmbeddedTextViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F543AED759A2BD629BDD2901C6AD2FB /* Build configuration list for PBXNativeTarget "Pods-UPEmbeddedTextViewManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6492E5646D34260160C2F2C7E2B21CA6 /* Debug */,
+				435A43F19CD72F2DFB01AD992C770C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD4084A2802ACC16BEF31D0EC526D23 /* Build configuration list for PBXNativeTarget "UPEmbeddedTextViewManager-UPEmbeddedTextViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1438EB069C6BFCFE4E7F457B74BF27FB /* Debug */,
+				A62A5524F8C27685697FD018750DEFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463DD6FF15DB400D96C9C90F6B7001E0 /* Build configuration list for PBXNativeTarget "UPEmbeddedTextViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F3047C3327D531404EF418E185DC5F /* Debug */,
+				F26659105D02A5BE5DE955B3AFC2E701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909E7073DDFD52DEBC6266ACD5AB6F5C /* Build configuration list for PBXNativeTarget "Pods-UPEmbeddedTextViewManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75EF328DC53B60E3A799FDE1B54BA17 /* Debug */,
+				49D204465086A8B53F946163687E0CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
