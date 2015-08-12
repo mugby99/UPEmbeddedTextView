@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011F66251AEC4DD200EEDEFD /* UPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F66241AEC4DD200EEDEFD /* UPManager.swift */; };
+		2A56D9781AE2F5D600E2D648 /* TestCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56D9771AE2F5D600E2D648 /* TestCellTableViewCell.swift */; };
+		5B6DE3E71B7822AE0059C0A9 /* UPManagedTextViewMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DE3E61B7822AE0059C0A9 /* UPManagedTextViewMetaData.swift */; };
 		5BA9E0B51AD1A43B0067831F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0B41AD1A43B0067831F /* AppDelegate.swift */; };
 		5BA9E0B71AD1A43B0067831F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0B61AD1A43B0067831F /* ViewController.swift */; };
 		5BA9E0BA1AD1A43B0067831F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA9E0B81AD1A43B0067831F /* Main.storyboard */; };
 		5BA9E0BC1AD1A43B0067831F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA9E0BB1AD1A43B0067831F /* Images.xcassets */; };
 		5BA9E0BF1AD1A43B0067831F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA9E0BD1AD1A43B0067831F /* LaunchScreen.xib */; };
 		5BA9E0CB1AD1A43B0067831F /* UPEmbeddedTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0CA1AD1A43B0067831F /* UPEmbeddedTextViewTests.swift */; };
-		5BA9E0D51AD1A65F0067831F /* UITableView+UP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */; };
-		5BA9E0D71AD1A93A0067831F /* UPEmbeddedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011F66241AEC4DD200EEDEFD /* UPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPManager.swift; sourceTree = "<group>"; };
+		2A56D9771AE2F5D600E2D648 /* TestCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCellTableViewCell.swift; sourceTree = "<group>"; };
+		5B6DE3E61B7822AE0059C0A9 /* UPManagedTextViewMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPManagedTextViewMetaData.swift; sourceTree = "<group>"; };
 		5BA9E0AF1AD1A43B0067831F /* UPEmbeddedTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPEmbeddedTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA9E0B31AD1A43B0067831F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA9E0B41AD1A43B0067831F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +42,6 @@
 		5BA9E0C41AD1A43B0067831F /* UPEmbeddedTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPEmbeddedTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA9E0C91AD1A43B0067831F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA9E0CA1AD1A43B0067831F /* UPEmbeddedTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPEmbeddedTextViewTests.swift; sourceTree = "<group>"; };
-		5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+UP.swift"; sourceTree = "<group>"; };
-		5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPEmbeddedTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A56D9791AE30D2000E2D648 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				011F66241AEC4DD200EEDEFD /* UPManager.swift */,
+				5B6DE3E61B7822AE0059C0A9 /* UPManagedTextViewMetaData.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		2A56D97A1AE30D3E00E2D648 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				5BA9E0B61AD1A43B0067831F /* ViewController.swift */,
+				2A56D9771AE2F5D600E2D648 /* TestCellTableViewCell.swift */,
+				5BA9E0B81AD1A43B0067831F /* Main.storyboard */,
+			);
+			name = Preview;
+			sourceTree = "<group>";
+		};
 		5BA9E0A61AD1A43B0067831F = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +102,12 @@
 		5BA9E0B11AD1A43B0067831F /* UPEmbeddedTextView */ = {
 			isa = PBXGroup;
 			children = (
+				2A56D97A1AE30D3E00E2D648 /* Preview */,
+				2A56D9791AE30D2000E2D648 /* Core */,
 				5BA9E0B41AD1A43B0067831F /* AppDelegate.swift */,
-				5BA9E0B61AD1A43B0067831F /* ViewController.swift */,
-				5BA9E0B81AD1A43B0067831F /* Main.storyboard */,
 				5BA9E0BB1AD1A43B0067831F /* Images.xcassets */,
 				5BA9E0BD1AD1A43B0067831F /* LaunchScreen.xib */,
 				5BA9E0B21AD1A43B0067831F /* Supporting Files */,
-				5BA9E0D41AD1A65F0067831F /* UITableView+UP.swift */,
-				5BA9E0D61AD1A93A0067831F /* UPEmbeddedTextView.swift */,
 			);
 			path = UPEmbeddedTextView;
 			sourceTree = "<group>";
@@ -218,10 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA9E0D51AD1A65F0067831F /* UITableView+UP.swift in Sources */,
+				011F66251AEC4DD200EEDEFD /* UPManager.swift in Sources */,
 				5BA9E0B71AD1A43B0067831F /* ViewController.swift in Sources */,
-				5BA9E0D71AD1A93A0067831F /* UPEmbeddedTextView.swift in Sources */,
+				2A56D9781AE2F5D600E2D648 /* TestCellTableViewCell.swift in Sources */,
 				5BA9E0B51AD1A43B0067831F /* AppDelegate.swift in Sources */,
+				5B6DE3E71B7822AE0059C0A9 /* UPManagedTextViewMetaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +435,7 @@
 				5BA9E0D01AD1A43B0067831F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA9E0D11AD1A43B0067831F /* Build configuration list for PBXNativeTarget "UPEmbeddedTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +444,7 @@
 				5BA9E0D31AD1A43B0067831F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
