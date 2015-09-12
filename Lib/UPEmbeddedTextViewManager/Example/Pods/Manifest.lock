@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UPEmbeddedTextViewManager: e3a02fdda2d44991980640135a1b63df62ad7adb
+  UPEmbeddedTextViewManager: ddc361b3972c3d3a72f4e4c3dffc3524f63952b1
 
 COCOAPODS: 0.38.2
