@@ -10,19 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "UPEmbeddedTextViewManager"
   s.version          = "0.1.0"
-  s.summary          = "A short description of UPEmbeddedTextViewManager."
+  s.summary          = "Convenience tool for employing UITextView instances embedded in table views."
   s.description      = <<-DESC
-                       An optional longer description of UPEmbeddedTextViewManager
+                       Enables scrolling and selection amongst other characteristics, to behave somewhat like the Notes section in the Contacts app (while editing a contact)
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UPEmbeddedTextViewManager"
+  s.homepage         = "https://github.com/mugby99/UPEmbeddedTextView.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Adriana Pineda" => "am.pineda206@uniandes.edu.co" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UPEmbeddedTextViewManager.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Martin Uribe & Adriana Pineda" => "a@a.com"}
+  s.source           = { :git => "https://github.com/mugby99/UPEmbeddedTextView", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/adrianapinedag'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
