@@ -231,6 +231,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>141DB7BFD5FB34C05CA64344AA482464</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>ACB096D01E1C60159B88197AE3B15A98</string>
+			<key>remoteInfo</key>
+			<string>UPEmbeddedTextViewManager-UPEmbeddedTextViewManager</string>
+		</dict>
 		<key>1438EB069C6BFCFE4E7F457B74BF27FB</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -276,17 +289,6 @@
 			<string>Target Support Files/Pods-UPEmbeddedTextViewManager_Example</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18B2C5920D94A6EC6A19DF18BAB3D73B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>UPEmbeddedTextViewManager</string>
-			<key>target</key>
-			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
-			<key>targetProxy</key>
-			<string>EDE265D56A31DD4C89FC5E29CF1B9EAE</string>
 		</dict>
 		<key>1F543AED759A2BD629BDD2901C6AD2FB</key>
 		<dict>
@@ -554,6 +556,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4F03F7C922AFADFE4F271B295B23C085</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>UPEmbeddedTextViewManager</string>
+			<key>target</key>
+			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
+			<key>targetProxy</key>
+			<string>B7FE583C7E24C4F0434CFB0F4BD7B951</string>
+		</dict>
 		<key>503524F7328F8CAEB4370B05E7D137AC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -566,6 +579,17 @@
 			<string>Pods-UPEmbeddedTextViewManager_Example-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50DBB1207C706EDE55521BD8B9555B2F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>UPEmbeddedTextViewManager</string>
+			<key>target</key>
+			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
+			<key>targetProxy</key>
+			<string>A05D06ACFF96480EBF87184EA25FAD82</string>
 		</dict>
 		<key>527A221A06D199E73707CB466695383A</key>
 		<dict>
@@ -680,7 +704,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>F9E29CDA1AB5837411BAFD1BBD290863</string>
+				<string>50DBB1207C706EDE55521BD8B9555B2F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -841,7 +865,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>18B2C5920D94A6EC6A19DF18BAB3D73B</string>
+				<string>4F03F7C922AFADFE4F271B295B23C085</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -854,7 +878,7 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>749E56050FDB80F529C41140E3265748</key>
+		<key>76A8155AF19DA877775AE515753E99A6</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
@@ -863,7 +887,7 @@
 			<key>target</key>
 			<string>ACB096D01E1C60159B88197AE3B15A98</string>
 			<key>targetProxy</key>
-			<string>CECA92290BA98B53EA9427EF1A753E47</string>
+			<string>141DB7BFD5FB34C05CA64344AA482464</string>
 		</dict>
 		<key>7A0AA97B7590B2BC8BC7E84173D150EC</key>
 		<dict>
@@ -880,7 +904,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>749E56050FDB80F529C41140E3265748</string>
+				<string>76A8155AF19DA877775AE515753E99A6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -1095,6 +1119,19 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>A05D06ACFF96480EBF87184EA25FAD82</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
+			<key>remoteInfo</key>
+			<string>UPEmbeddedTextViewManager</string>
+		</dict>
 		<key>A3BBD634708D1DDBB9AF78F6AE15E603</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1283,6 +1320,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>B7FE583C7E24C4F0434CFB0F4BD7B951</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
+			<key>remoteInfo</key>
+			<string>UPEmbeddedTextViewManager</string>
+		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1299,19 +1349,6 @@
 			<string>SOURCE_ROOT</string>
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BB2B6E3A240345734B4C4AE6855C2A1D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
-			<key>remoteInfo</key>
-			<string>UPEmbeddedTextViewManager</string>
 		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
@@ -1393,19 +1430,6 @@
 			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CECA92290BA98B53EA9427EF1A753E47</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>ACB096D01E1C60159B88197AE3B15A98</string>
-			<key>remoteInfo</key>
-			<string>UPEmbeddedTextViewManager-UPEmbeddedTextViewManager</string>
 		</dict>
 		<key>CEFF6161BE4048C9C074F49D6E8FB2C3</key>
 		<dict>
@@ -1612,19 +1636,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EDE265D56A31DD4C89FC5E29CF1B9EAE</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
-			<key>remoteInfo</key>
-			<string>UPEmbeddedTextViewManager</string>
-		</dict>
 		<key>EEEAB7AA0E1F264E683077C74F76D68D</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -1720,17 +1731,6 @@
 			<string>BF5873521F8BFEFAF2E915B12AC4814F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>F9E29CDA1AB5837411BAFD1BBD290863</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>UPEmbeddedTextViewManager</string>
-			<key>target</key>
-			<string>7A0AA97B7590B2BC8BC7E84173D150EC</string>
-			<key>targetProxy</key>
-			<string>BB2B6E3A240345734B4C4AE6855C2A1D</string>
 		</dict>
 		<key>FA66BAECD6241E064EA4156B587C5DE0</key>
 		<dict>
