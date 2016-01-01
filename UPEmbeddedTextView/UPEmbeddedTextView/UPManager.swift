@@ -130,7 +130,7 @@ class UPManager: NSObject, UITextViewDelegate {
             if let mappedCell = offScreenCells[cellReuseIdentifier] as? UITableViewCell {
                 currentCellInstance = mappedCell
             } else {
-                currentCellInstance = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier) as? UITableViewCell
+                currentCellInstance = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier)
             }
             
             if currentCellInstance != nil{
@@ -527,14 +527,14 @@ class UPManager: NSObject, UITextViewDelegate {
     }
     
     private func isFakeManagedUPTextViewWithReuseIdentifier(reuseIdentifier: String) -> Bool {
-        if let metaData = self.fakeMetaDataForReuseIdentifier(reuseIdentifier) as UPManagedTextViewMetaData? {
+        if ((self.fakeMetaDataForReuseIdentifier(reuseIdentifier) as UPManagedTextViewMetaData?) != nil) {
             return true
         }
         return false
     }
     
     private func isManagedUPTextView(textView: UITextView) -> Bool {
-        if let metaData = self.metaDataForManagedTextView(textView) as UPManagedTextViewMetaData? {
+        if ((self.metaDataForManagedTextView(textView) as UPManagedTextViewMetaData?) != nil) {
             return true
         }
         return false
