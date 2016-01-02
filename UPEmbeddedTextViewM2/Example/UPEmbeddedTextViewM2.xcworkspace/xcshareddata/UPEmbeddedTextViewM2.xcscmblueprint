@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0C27418B82AE14E5162AC4427A5E536D2A7BF9CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "394C5ED5A47BAF4C0D1EB16CB57CE2C44F7B5CEA" : 0,
+    "0C27418B82AE14E5162AC4427A5E536D2A7BF9CB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2AB6E302-E4ED-4AA4-B876-DF3CE6BB703D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "394C5ED5A47BAF4C0D1EB16CB57CE2C44F7B5CEA" : "",
+    "0C27418B82AE14E5162AC4427A5E536D2A7BF9CB" : "UPEmbeddedTextViewM2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UPEmbeddedTextViewM2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/UPEmbeddedTextViewM2.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AdrianaPineda\/UPEmbeddedTextViewManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C27418B82AE14E5162AC4427A5E536D2A7BF9CB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mugby99\/UPEmbeddedTextView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "394C5ED5A47BAF4C0D1EB16CB57CE2C44F7B5CEA"
+    }
+  ]
+}
