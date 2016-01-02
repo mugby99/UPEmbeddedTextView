@@ -9,7 +9,7 @@
     "Martin Uribe & Adriana Pineda": "a@a.com"
   },
   "source": {
-    "git": "https://github.com/mugby99/UPEmbeddedTextView",
+    "git": "https://github.com/mugby99/UPEmbeddedTextView.git",
     "tag": "0.1.0"
   },
   "platforms": {

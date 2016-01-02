@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UPEmbeddedTextViewManager"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Convenience tool for employing UITextView instances embedded in table views."
   s.description      = <<-DESC
                        Enables scrolling and selection amongst other characteristics, to behave somewhat like the Notes section in the Contacts app (while editing a contact)
@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/mugby99/UPEmbeddedTextView.git"
+  s.homepage         = "https://github.com/mugby99/UPEmbeddedTextView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Martin Uribe & Adriana Pineda" => "a@a.com"}
-  s.source           = { :git => "https://github.com/mugby99/UPEmbeddedTextView", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mugby99/UPEmbeddedTextView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/adrianapinedag'
 
   s.platform     = :ios, '8.0'
